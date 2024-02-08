@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("SQL Udemy Course Analysis")
 st.caption('07 February 2024')
-st.caption('by Difa Fisabilillah')
+st.markdown("<a href='https://www.linkedin.com/in/difa-fisabilillah' target='_blank'>by Difa Fisabilillah</a>", unsafe_allow_html=True)
 st.image('https://geekflare.com/wp-content/uploads/2022/07/udemy-courses-1200x385.png', caption='Udemy Course')
 st.divider()
 st.markdown('''
