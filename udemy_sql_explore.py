@@ -608,3 +608,17 @@ ORDER BY num_subscribers DESC
 st.code(code, language='sql')
 st.markdown("Result :")
 st.image('./image/25.png', caption='')
+
+
+
+st.header("Dashboard ")
+video_file = open('./image/Udemy_dashborad.mp4', 'rb')
+video_bytes = video_file.read()
+
+st.video(video_bytes)
+# Center the text using markdown and CSS
+    centered_text_style = """
+        display: flex;
+        justify-content: center;
+    """
+    st.markdown(f"<div style='{centered_text_style}'><a href='https://public.tableau.com/views/Udemy_course_17078732930430/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link' target='_blank'>Click to See</a></div>", unsafe_allow_html=True)
